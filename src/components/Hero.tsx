@@ -1,7 +1,7 @@
 
 import { Button } from '@/components/ui/button';
 import { Card } from '@/components/ui/card';
-import { Play, ArrowRight, Zap, Shield, Users } from 'lucide-react';
+import { ArrowRight, Zap, Shield, Users } from 'lucide-react';
 
 const Hero = () => {
   return (
@@ -33,11 +33,6 @@ const Hero = () => {
               <Button size="lg" className="bg-secondary hover:bg-secondary/90 text-white px-8 py-4 text-lg">
                 Empezar Prueba Gratuita
                 <ArrowRight className="ml-2 h-5 w-5" />
-              </Button>
-              
-              <Button variant="outline" size="lg" className="px-8 py-4 text-lg border-2">
-                <Play className="mr-2 h-5 w-5" />
-                Ver Demo
               </Button>
             </div>
             

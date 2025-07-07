@@ -8,8 +8,7 @@ const Testimonials = () => {
     {
       name: 'Carlos Mendoza',
       role: 'Gerente General',
-      company: 'Taller Mendoza & Hijos',
-      content: 'AutoPro transformó completamente nuestro negocio. Ahora podemos atender 40% más clientes con la misma plantilla. La inversión se recuperó en menos de 3 meses.',
+      content: 'M.AR.S transformó completamente nuestro negocio. Ahora podemos atender 40% más clientes con la misma plantilla. La inversión se recuperó en menos de 3 meses.',
       rating: 5,
       initials: 'CM',
       results: '+40% eficiencia'
@@ -17,7 +16,6 @@ const Testimonials = () => {
     {
       name: 'María Rodríguez',
       role: 'Propietaria',
-      company: 'AutoService Rodríguez',
       content: 'La facilidad de uso es increíble. Mis técnicos adoptaron el sistema en días, no semanas. Los reportes me dan visibilidad total del negocio.',
       rating: 5,
       initials: 'MR',
@@ -26,8 +24,7 @@ const Testimonials = () => {
     {
       name: 'José García',
       role: 'Director de Operaciones',
-      company: 'Red de Talleres García',
-      content: 'Gestionamos 8 talleres con AutoPro. La centralización de datos y la automatización nos ahorraron 15 horas semanales de trabajo administrativo.',
+      content: 'Gestionamos 8 talleres con M.AR.S. La centralización de datos y la automatización nos ahorraron 15 horas semanales de trabajo administrativo.',
       rating: 5,
       initials: 'JG',
       results: '15h/semana ahorradas'
@@ -35,7 +32,6 @@ const Testimonials = () => {
     {
       name: 'Ana Martínez',
       role: 'Gerente',
-      company: 'Taller Express',
       content: 'Nuestros clientes están más satisfechos porque siempre saben el estado de sus vehículos. Las notificaciones automáticas son geniales.',
       rating: 5,
       initials: 'AM',
@@ -44,7 +40,6 @@ const Testimonials = () => {
     {
       name: 'Roberto Silva',
       role: 'Propietario',
-      company: 'Silva Automotive',
       content: 'La seguridad de datos nos da tranquilidad total. Sabemos que la información de nuestros clientes está protegida con estándares bancarios.',
       rating: 5,
       initials: 'RS',
@@ -53,7 +48,6 @@ const Testimonials = () => {
     {
       name: 'Patricia López',
       role: 'Administradora',
-      company: 'Taller Central',
       content: 'El soporte técnico es excepcional. Siempre que necesitamos ayuda, responden inmediatamente. Es como tener un equipo IT propio.',
       rating: 5,
       initials: 'PL',
@@ -71,8 +65,8 @@ const Testimonials = () => {
             <span className="gradient-text">clientes</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Más de 500 talleres confían en AutoPro para gestionar su negocio. 
-            Descubre por qué somos la opción número 1 en Latinoamérica.
+            Más de 500 talleres confían en M.AR.S para gestionar su negocio. 
+            Descubre por qué somos la opción número 1 en Panamá.
           </p>
         </div>
 
@@ -116,9 +110,6 @@ const Testimonials = () => {
                       </div>
                       <div className="text-gray-600 text-xs">
                         {testimonial.role}
-                      </div>
-                      <div className="text-gray-500 text-xs">
-                        {testimonial.company}
                       </div>
                     </div>
                   </div>

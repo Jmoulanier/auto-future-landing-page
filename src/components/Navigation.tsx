@@ -12,7 +12,7 @@ const Navigation = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <h1 className="text-2xl font-bold text-primary">AutoPro</h1>
+            <h1 className="text-2xl font-bold text-primary">M.AR.S</h1>
           </div>
           
           {/* Desktop Navigation */}
@@ -28,7 +28,7 @@ const Navigation = () => {
                 Precios
               </a>
               <Button className="bg-secondary hover:bg-secondary/90 text-white">
-                Prueba Gratuita
+                Iniciar Sesión
               </Button>
             </div>
           </div>
@@ -60,7 +60,7 @@ const Navigation = () => {
             </a>
             <div className="pt-2">
               <Button className="w-full bg-secondary hover:bg-secondary/90 text-white">
-                Prueba Gratuita
+                Iniciar Sesión
               </Button>
             </div>
           </div>
